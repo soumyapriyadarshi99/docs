@@ -1,0 +1,254 @@
+                                                                   CLOUD AZURE TRAINING
+
+Day-1
+Module 1-Cloud concepts
+Module 2-Core Azure services
+Module 3-Core solution and management tools
+
+Day-2
+Module 4-General and Network Security
+Module 5-Identity,Governance,Privacy and Compliance
+Module 6-Azure cost management and servive level agreements
+
+Module-1
+
+Cloud computing is delivery of computing services over the intenet,enabling faster innovation ,flexible resources and ec
+economies of scale.
+Cloud computing is enabling ubiqtous, convienient and on-demand network acess to a shared
+pool of configurable computer-resources (network,storage,etc) to manage and release it without any external 
+cloud provider.
+
+Public cloud
+-owned by cloud services
+-provides resources to multiple organisations/users
+-accessed via secure network connection
+
+Private
+-organisations create a cloud environment
+-organisation is responsible for operating services
+-external users cannot use it
+
+Hybrid cloud
+public+private to allow applications to run in most appropriate locations
+
+cloud basic video
+https://www.microsoft.com/videoplayer/embed/RE4LyBB
+
+Cloud benefits and considerations
+High availibilty       Fault tolerance
+scalability            Elasticity
+global reach           Customer latency capabilities
+agilty                 Predictive cost considerations
+disaster recovery      Security
+
+Vertical scaling-scaling up
+Horizontal scaling-scaling down
+
+Capex vs Opex
+Capital- Expenditure                    Operational Expenditure
+-physical infrastructure cost           spend pn products and servuces as needed
+-reduces over time                      get billed immediately
+
+Cloud Services
+-Infrastructure as a Service(IaaS)
+building pay-as-you-go IT infrastructure by renting servers,
+virtual machines,storage,etc from a cloud provider.
+-Platform as a Service(PaaS)
+provides environment for bulding,testing, and deploying software
+applications,managed by the cloud provider.
+-Software as a servicr(SaaS)
+users connect and use cloud-based apps over the internet
+
+Shared responsibilty model
+-on premises(private cloud)
+data access
+applocations
+runtime
+os
+vm
+compute
+network
+storage
+-infrastructure
+data access
+applocations
+runtime
+os
+vm
+-platform
+data access
+applocations
+-software
+data and access
+
+Serverless Computing
+cloud service provider automatically proviosions,scales and manages
+infrastructure to run code
+-azure functions
+azure logic apps
+
+MODULE-2
+https://www.mannoni.ch/azure-virtual-wan-vwan-durch-den-ms-backbone/
+Availability zones
+-at least 300 miles of separation between regional pairs
+-automatic replication of services
+-updates are rollout automatically
+
+Azure resources
+- vm                           -sql databases
+- storage accounts             -app services
+-vn                            -functions
+
+Resource Groups
+-a container to manage and aggregate resources in a single unit
+eg:VM, application gateway,etc
+
+Azure Resource Manager
+provides a management layer that enables you to create update and delete 
+https://www.microsoft.com/videoplayer/embed/RWyvOc
+
+Azure subscriptions
+provides you with authentication access 
+-biiling boundary
+-access controls
+
+Management Groups
+-includes multiple azure subscriptions
+
+Azure VM
+
+Azure app services
+
+Azure container services
+-they are light-weight.virtualised envirnment that does not require OS and
+can respond to change.
+-azure container instances
+-azure kubernetes service
+https://www.microsoft.com/videoplayer/embed/RE2yuaq
+
+Kubernetes
+https://www.microsoft.com/videoplayer/embed/RE2yEuX
+
+Microservices
+https://www.microsoft.com/videoplayer/embed/RE2yual
+
+Azure Virtual Desktop
+a desktop and app virtualisation runs in cloud.
+https://www.microsoft.com/videoplayer/embed/RE4LRpC
+
+Azure networking services
+-Azure VNet
+-Virtual private  network gateway(vpn)
+-Azure Express Route
+
+Azure storage access tiers
+-hot
+-cool
+-archieve
+
+Azure database services
+-cosmos db
+-sql database
+-db for MySQL
+-db for PostgreSQL
+
+Azure storage
+https://www.microsoft.com/videoplayer/embed/RE4MAbS
+
+Azure Marketplace
+-allows customers to find,try,purchase and provision applications and services
+from various service providers.
+
+Module-3
+
+Azure IoT
+ability to garner and rely info. for data-analysis
+-IoT Hub
+-IoT central
+-Sphere
+https://www.microsoft.com/videoplayer/embed/RWGd57
+
+Big data and analytics
+-Azure Synapse Analytics
+-HDInsight
+-Databricks
+
+Artificial INtelligence and Machine Learning
+-Azure machine learning
+-Cognitive services
+-Bot services
+https://www.microsoft.com/videoplayer/embed/RWyJva
+
+Serverless computing
+https://www.microsoft.com/videoplayer/embed/RWAqjM
+
+Azure with github
+-Azure Devops
+-github
+-github actions for azure
+-azure devtest labs
+Pipeline
+https://www.microsoft.com/videoplayer/embed/RWHb6A
+
+Azure management tools
+-azure prtal
+-powershell
+-mobile app
+-command-line interface(cli)
+-azure rest api
+-azure cloud shell
+
+Azure Key Vault
+stores application secrets in a centralized cloud location in order to
+securely control access permissions and access logging
+-seceret management
+-key management
+-certificate management
+-hardware security modules(HSMs)
+
+Azure Dedicated Host
+provides physical servers that host one or more azure virtual machines that is dedicated tioo
+a single orgabization workload
+Benefits
+
+Azure firewall
+-FaaS
+
+Azure Distributes Denial of Service(DDoS) protection
+
+Conditional Access
+
+Azure privacy
+https://www.microsoft.com/videoplayer/embed/RWAaTE
+
+[16:10] Jazib Rahman
+Machine Learning: https://www.microsoft.com/videoplayer/embed/RWyJvaServerless Computing: https://www.microsoft.com/videoplayer/embed/RWAqjMAzure Devops: https://www.microsoft.com/videoplayer/embed/RWHb6APrivacy Statement: https://www.microsoft.com/videoplayer/embed/RWAaTECost Management: https://www.microsoft.com/videoplayer/embed/RWGNx4SLA: https://www.microsoft.com/videoplayer/embed/RWEA4z
+ like 4
+
+[16:11] BIRAT ADHIKARI
+Cloud Computing: https://www.microsoft.com/videoplayer/embed/RE4LyBB
+Azure Resource Grp manager: https://www.microsoft.com/videoplayer/embed/RWyvOc
+Docker and VM: https://www.microsoft.com/videoplayer/embed/RE2yuaq
+Kubernetes: https://www.microsoft.com/videoplayer/embed/RE2yEuXMicroservices: https://www.microsoft.com/videoplayer/embed/RE2yualVirtual desktop: https://www.microsoft.com/videoplayer/embed/RE4LRpCDemo of docker and Kubernetes: https://www.youtube.com/watch?v=cEy5XhjD7ZA&t=345s
+Azure Storage: https://www.microsoft.com/videoplayer/embed/RE4MAbS
+Azure IOT: https://www.microsoft.com/videoplayer/embed/RWGd57
+Machine Learning: https://www.microsoft.com/videoplayer/embed/RWyJva
+Serverless Computing: https://www.microsoft.com/videoplayer/embed/RWAqjM
+Azure Pipeline: https://www.microsoft.com/videoplayer/embed/RWHb6A
+Microsoft Privacy: https://www.microsoft.com/videoplayer/embed/RWAaTE
+Lab: https://github.com/MicrosoftLearning/AZ-900T0x-MicrosoftAzureFundamentals/tree/master/Instructions/Walkthroughs
+Pricing: https://www.microsoft.com/videoplayer/embed/RWGNx4
+SLA: https://www.microsoft.com/videoplayer/embed/RWEA4z
+ like 4
+
+ AZ 900 – Microsoft Azure Fundamentals
+
+
+
+
+
+
+
+
+
+
